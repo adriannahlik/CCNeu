@@ -5,7 +5,7 @@ import org.apache.log4j.BasicConfigurator;
 
 import static spark.Spark.*;
 
-import barpackage.Bar;
+import bar.Bar;
 
 public class App {
 
