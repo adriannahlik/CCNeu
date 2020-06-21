@@ -5,6 +5,8 @@ import org.apache.log4j.BasicConfigurator;
 
 import static spark.Spark.*;
 
+import barpackage.bar;
+
 public class App {
 
     static Logger logger = Logger.getLogger(App.class);
