@@ -19,7 +19,7 @@ steps:
 - name: publish
   image: plugins/docker
   settings: 
-    repo: adriannahlik/CCNeu
+    repo: adriannahlik/calculator
     username:
       from_secret: dockerhub_user
     password:
