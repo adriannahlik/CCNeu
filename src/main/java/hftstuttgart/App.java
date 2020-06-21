@@ -5,7 +5,7 @@ import org.apache.log4j.BasicConfigurator;
 
 import static spark.Spark.*;
 
-import barpackage.bar;
+import barpackage.Bar;
 
 public class App {
 
@@ -15,7 +15,7 @@ public class App {
      BasicConfigurator.configure();
 
         logger.info("Entering application.");
-     bar bar = new bar();
+     Bar bar = new Bar();
      bar.doIt();
      logger.info("Exiting application.");
 
